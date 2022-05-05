@@ -52,7 +52,7 @@ $projects[] = new Project(
 $projects[] = new Project(
     "Nature Québec",
     ["HTML", "CSS", "Javascript", "JQuery"],
-    "Site bilingue présentant quelques-uns des plus beaux parcs de la ville de Québec incluant des fichiers audios et la possibilité de suggérer un parc.", "https://www.caroline-fontaine.com/nature",
+    "Site bilingue présentant quelques-uns des plus beaux parcs de la ville de Québec incluant des fichiers audios et la possibilité de suggérer un parc.", "https://www.caroline-fontaine.com/nature-quebec",
     "nature.png"
 );
 

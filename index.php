@@ -215,7 +215,7 @@ include 'includes/contact.php';
                         <p class="description"><?= $project->description; ?><p>
                     </div>
                     <div class="visit">
-                        <a href="<?= $project->link; ?>" target="_top" class=""><?=$view; ?><i class="fa-solid fa-arrow-up-right-from-square visit-icon"></i></a>
+                        <a href="<?= $project->link; ?>" target="_blank" class=""><?=$view; ?><i class="fa-solid fa-arrow-up-right-from-square visit-icon"></i></a>
                     </div>
                 </div>
             </div>
@@ -306,8 +306,8 @@ include 'includes/contact.php';
                 <div class="column-right">
                     
                     <div class="reseaux">
-                        <a class="reseaux-links" href="https://github.com/eracool007" target="_top"><i class="reseaux-icon fa-brands fa-github round"></i></a>
-                        <a class="reseaux-links" href="https://www.linkedin.com/in/caroline-fontaine-51125750" target="_top"><i class="reseaux-icon fa-brands fa-linkedin"></i></a>
+                        <a class="_blank-links" href="https://github.com/eracool007" target="_blank"><i class="reseaux-icon fa-brands fa-github round"></i></a>
+                        <a class="reseaux-links" href="https://www.linkedin.com/in/caroline-fontaine-51125750" target="_blank"><i class="reseaux-icon fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="column-right col-links">
