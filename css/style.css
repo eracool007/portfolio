@@ -55,6 +55,7 @@ body {
     display: block;
     float: none;
    
+   
 }
 
 .row80{
@@ -155,6 +156,7 @@ header {
     font-size: 64px;
     font-weight: 500;
     color: var(--aqua);
+    z-index: 500;
     
 }
 
@@ -170,15 +172,19 @@ header {
 nav {
     width: 100%;
 }
-
+.main-ul{
+    z-index: 10000;
+}
 ul.main-ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    
 }
 .li-main{
     display: inline;
     color: white;
+    z-index: 1000;
     
 }
 .li-main a{
@@ -591,6 +597,16 @@ h3{
     padding: 15px 20px 15px 0;
     
 }
+.para-info{
+    
+    color: #fff;
+    line-height: 1.2;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: -30px;
+    padding-bottom: 40px;
+}
+
 .center{
     text-align: center;
 }
@@ -603,6 +619,7 @@ h3{
     -webkit-box-shadow: 0px 0px 37px 1px rgba(0,0,0,0.3); 
     box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.3);
 }
+
 .pb30{
     padding-bottom: 30px;
 }
@@ -706,12 +723,15 @@ footer{
 
 .cards{
     width: 600px;
+    
     background-color: #21212E;
     margin: 0 auto;
+    
   
 }
 .card{
     max-width: 600px;
+    height: 600px;
     padding: 15px 0 0;
     margin: 0 auto;
     border-radius: 5px;
@@ -984,21 +1004,10 @@ textarea, input {
     font-size: 0.7rem;
 }
 .credits{
-    /*
-    background-color: #fefefe;
-    margin: 15% auto; 
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; 
-    position: relative;
-    cursor: pointer;
-    z-index: 50000;
-   */
     position: relative;
     color: var(--aqua);
     cursor: pointer;
     z-index: 50000; 
-    
 }
 
 .credit-box {
@@ -1010,24 +1019,14 @@ textarea, input {
     position:fixed;
     bottom: 20px;
     left: 50%;
-    padding: 20px;
+    padding: 5px 20px 10px 20px;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
     z-index: 50000;
     
 }
-/*
-.credit-box{
-    width: 400px;
-    background-color: #ccc;
-    border-radius: 10px;
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-50%);
-}
-*/
+
 .hidden{
     display: none;
 }
@@ -1060,11 +1059,10 @@ main {
 }
 
 .pos-head{
-   
     top: -35%;
     left: -35%;
     animation: 4s slideInCircle; 
-    
+    z-index: 0;
 }
 @keyframes slideInCircle {
     0% {
@@ -1078,7 +1076,6 @@ main {
         
     }
 }
-
 
 .pos-tec{
     top: 10%;
@@ -1117,6 +1114,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    z-index: 0;
 }    
 
 .circle-dashed{
@@ -1132,6 +1130,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    z-index: 0;
    
 }
 

@@ -52,6 +52,7 @@ include 'includes/contact.php';
     <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
+    
     <div class="circles  pos-head">
         <div class="circle-light"></div>
         <div class="circle-dashed"></div>
@@ -175,7 +176,7 @@ include 'includes/contact.php';
         <div class="rowfull">
         <div class="main-content center top">
             <h2 id="projets"><?= $projectTitle; ?></h2>
-            
+            <p class="para-info"><?= $projectInfo; ?></p>
             
             
             <?php

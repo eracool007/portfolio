@@ -33,41 +33,41 @@ $sql = "Bases de données SQL";
 $projectTitle = "Mes projets";
 $view = "Voir le projet";
 
+$projectInfo ="Certains projets offrent une page de présentation ou \"À propos\". <br>N'hésitez pas à les consulter pour en connaître davantage sur le projet.";
+
 $projects[] = new Project(
-    "VBox - La boîte à recettes véganes",
+    "VBox - Recettes et blog culinaire",
     ["HTML", "CSS", "PHP", "SQL", "Programmation orientée objet", "JavaScript"],
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime assumenda eum voluptatum tempore dolore in, laudantium dignissimos omnis cum sequi, quam similique harum asperiores iure vero dolores alias atque nulla!", "https://www.caroline-fontaine.com/vbox",
+    "Site de recettes fictives incluant un blog culinaire et une section administrateur. L’utilisateur peut notamment ajouter des favoris, imprimer et envoyer des recettes. ", "https://www.caroline-fontaine.com/vbox",
     "vbox.png"
 );
 
+$projects[] = new Project(
+    "VBox - Commerce électronique",
+    ["HTML", "CSS", "PHP", "SQL", "API Stripe", "Javascript"],
+    "Site fictif de commerce électronique pour la commande de boîtes à lunch. Le site offre un panier d'achat avec paiement Stripe et une section administrateur pour gérer les commandes en cours.", "https://www.caroline-fontaine.com/shopping",
+    "shopping.png"
+);
+
+$projects[] = new Project(
+    "Nature Québec",
+    ["HTML", "CSS", "Javascript", "JQuery"],
+    "Site bilingue présentant quelques-uns des plus beaux parcs de la ville de Québec incluant des fichiers audios et la possibilité de suggérer un parc.", "https://www.caroline-fontaine.com/nature",
+    "nature.png"
+);
 
 $projects[] = new Project(
     "Co-Space - Site fictif de location d'espace",
-    ["HTML", "CSS", "Bootstrap"],
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime assumenda eum voluptatum tempore dolore in, laudantium dignissimos omnis cum sequi, quam similique harum asperiores iure vero dolores alias atque nulla!", "https://www.caroline-fontaine.com/cospace",
+    ["HTML", "CSS", "Bootstrap", "Javascript"],
+    "Le projet co-space est l’un de mes premiers projets. L’objectif était de créer une maquette avec Adobe XD, puis  de créer une page HTML en utilisant la librairie Bootstrap.", "https://www.caroline-fontaine.com/cospace",
     "cospace.png"
 );
 
 $projects[] = new Project(
     "Jeu Tic Tac Toe",["HTML", "CSS", "Javascript"],
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime assumenda eum voluptatum tempore dolore in, laudantium dignissimos omnis cum sequi, quam similique harum asperiores iure vero dolores alias atque nulla!", "https://www.caroline-fontaine.com/tictactoe",
+    "Ce projet scolaire était originalement un plugin WordPress effectué en équipe pour mettre en pratiques nos connaissances de HTML, CSS, Javascript et d’apprendre Git. ", "https://www.caroline-fontaine.com/tictactoe",
     "tictactoe.png"
 );
-
-$projects[] = new Project(
-    "Nature Québec",
-    ["HTML", "CSS", "Javascript"],
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime assumenda eum voluptatum tempore dolore in, laudantium dignissimos omnis cum sequi, quam similique harum asperiores iure vero dolores alias atque nulla!", "https://www.caroline-fontaine.com/nature",
-    "nature.png"
-);
-
-$projects[] = new Project(
-    "Boîte à lunch",
-    ["HTML", "CSS", "PHP", "API Stripe", "SQL"],
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime assumenda eum voluptatum tempore dolore in, laudantium dignissimos omnis cum sequi, quam similique harum asperiores iure vero dolores alias atque nulla!", "https://www.caroline-fontaine.com/shopping",
-    "shopping.png"
-);
-
 
 //about
 $aboutTitle = "À propos";

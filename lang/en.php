@@ -5,7 +5,7 @@ $errNom = "First or lastname name must be provided";
 $errDetails = "A message is required";
 
 $metaTitre = "Caroline Fontaine - Web Developper - HTML, CSS, PHP, et More!";
-$metaDescription = "Caroline Fontaine - Portfolio showcasing some of my web project. Finding solutions, I love that!";
+$metaDescription = "Caroline Fontaine - Portfolio showcasing some of my web project. Problem solving is my thing!";
 
 //header
 $accueil = "Home";
@@ -18,8 +18,8 @@ $language="Français";
 //hero
 $unicornAlt = "Unicorn - Photo from Darius Dan - Flaticon";
 $h1="Hi! I am Caroline, web developper and programmer.";
-$trouver = "Finding solutions...";
-$slogan = "I love it!";
+$trouver = "Problem solving...";
+$slogan = "is my thing!";
 $altordi = "Laptop - Photo from Facu Montanaro - Unsplash";
 
 //tech
@@ -34,19 +34,36 @@ $sql = "SQL Databases";
 $projectTitle = "My projects";
 $view = "Go to Project";
 
+$projectInfo ="Some projects include an about page. <br>Make sure to check them out to learn more about the specific project!";
+
 $projects[] = new Project(
-    "VBox - Website for recipes",
+    "VBox - Recipies & Culinary Blog",
     ["HTML", "CSS", "PHP", "SQL", "Programmation orientée objet", "JavaScript"],
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime assumenda eum voluptatum tempore dolore in, laudantium dignissimos omnis cum sequi, quam similique harum asperiores iure vero dolores alias atque nulla!", 
+    "Fictional recipe and blog site including an administrator dashboard. Users can add favourites, print and send recipes, as well as add items to a grocery list.", 
     "https://www.caroline-fontaine.com/vbox",
     "vbox.png"
 );
 
+$projects[] = new Project(
+    "VBox - Shopping Cart Website",
+    ["HTML", "CSS", "PHP", "SQL", "API Stripe", "Javascript"],
+    "E-commerce site for ordering lunch boxes. This fictional site offers a shopping cart with Stripe payments as well as an administrator section to manage pending orders.", 
+    "https://www.caroline-fontaine.com/shopping",
+    "shopping.png"
+);
 
 $projects[] = new Project(
-    "Co-Space - Commercial Space Rental Website",
-    ["HTML", "CSS", "Bootstrap"],
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime assumenda eum voluptatum tempore dolore in, laudantium dignissimos omnis cum sequi, quam similique harum asperiores iure vero dolores alias atque nulla!", 
+    "Nature Québec",
+    ["HTML", "CSS", "Javascript", "JQuery"],
+    "Bilingual website presenting some of Quebec City’s most beautiful parks. Audio files are available, and users can suggest a park.", 
+    "https://www.caroline-fontaine.com/nature",
+    "nature.png"
+);
+
+$projects[] = new Project(
+    "Co-Space - Rental Website",
+    ["HTML", "CSS", "Bootstrap", "Javascript"],
+    "The co-space project is one of my first projects. The objective was to create a wireframe using Adobe XD, and then create an HTML page using the Bootstrap library.", 
     "https://www.caroline-fontaine.com/cospace",
     "cospace.png"
 );
@@ -54,37 +71,21 @@ $projects[] = new Project(
 $projects[] = new Project(
     "Tic Tac Toe Game",
     ["HTML", "CSS", "Javascript"],
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime assumenda eum voluptatum tempore dolore in, laudantium dignissimos omnis cum sequi, quam similique harum asperiores iure vero dolores alias atque nulla!", 
+    "This project was originally a WordPress plugin. As a school project, we were required to develop it as a team to put into practice our knowledge of HTML, CSS, Javascript and to learn Git.", 
     "https://www.caroline-fontaine.com/tictactoe",
     "tictactoe.png"
-
 );
-
-$projects[] = new Project(
-    "Nature Québec",
-    ["HTML", "CSS", "Javascript"],
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime assumenda eum voluptatum tempore dolore in, laudantium dignissimos omnis cum sequi, quam similique harum asperiores iure vero dolores alias atque nulla!", 
-    "https://www.caroline-fontaine.com/nature",
-    "nature.png"
-);
-
-$projects[] = new Project(
-    "Lunch Box Shopping Website",
-    ["HTML", "CSS", "PHP", "API Stripe", "SQL"],
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime assumenda eum voluptatum tempore dolore in, laudantium dignissimos omnis cum sequi, quam similique harum asperiores iure vero dolores alias atque nulla!", 
-    "https://www.caroline-fontaine.com/shopping",
-    "shopping.png"
-);
-
 
 //about
 $aboutTitle = "About";
 $aboutAlt = "";
-$aboutText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam faucibus purus in massa tempor nec. 
+$aboutText = "Being a web development graduate, I am passionate about programming and logic. Having already some experience of the web, my training allowed me to acquire new up-to-date knowledge and to put into practice several technologies both at the level of front-end and back-end applications.
 <br><br>
-perdiet proin fermentum leo vel orci. Sit amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Viverra orci sagittis eu volutpat odio facilisis mauris. Vitae suscipit tellus mauris a. Non odio euismod lacinia at quis. 
+
+In addition, I discovered that problem solving was something very stimulating for me. This makes me particularly fond of server-side programming and databases.
 <br><br>
-Non sodales neque sodales ut etiam sit amet nisl purus. Aliquam sem et tortor consequat id porta nibh. Ut sem viverra aliquet eget sit amet tellus. Elementum tempus egestas sed sed risus.";
+Curious by nature, I am always looking for new things to learn. In fact, I never get tired of learning, and the programming world, there is always things to learn. That's what I love about it!
+";
 
 //contact
 $contactTitle = "Contact Me";
