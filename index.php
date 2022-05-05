@@ -306,8 +306,8 @@ include 'includes/contact.php';
                 <div class="column-right">
                     
                     <div class="reseaux">
-                        <a class="reseaux-links" href="https://github.com/eracool007" target="_top" ><i class="reseaux-icon fa-brands fa-github round"></i></a>
-                        <a class="reseaux-links" href="https://www.linkedin.com/in/caroline-fontaine-51125750" target="_top" ><i class="reseaux-icon fa-brands fa-linkedin"></i></a>
+                        <a class="reseaux-links" href="https://github.com/eracool007" target="_top"><i class="reseaux-icon fa-brands fa-github round"></i></a>
+                        <a class="reseaux-links" href="https://www.linkedin.com/in/caroline-fontaine-51125750" target="_top"><i class="reseaux-icon fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="column-right col-links">

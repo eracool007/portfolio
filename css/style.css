@@ -969,8 +969,8 @@ textarea, input {
 .round {
     border-radius: 50%;
 }
-.reseaux-links:visited {
-    color: var(--aqua);
+.reseaux-links, .reseaux-links:visited{
+    color: var(--aqua) !important;
 }
 .reseaux-icon:hover{
     -webkit-box-shadow: 0px 0px 15px 1px rgba(70,194,255,0.57); 
