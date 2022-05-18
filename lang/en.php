@@ -84,7 +84,7 @@ $aboutText = "Being a web development graduate, I am passionate about programmin
 
 In addition, I discovered that problem solving was something very stimulating for me. This makes me particularly fond of server-side programming and databases.
 <br><br>
-Curious by nature, I am always looking for new things to learn. In fact, I never get tired of learning, and the programming world, there is always things to learn. That's what I love about it!
+Curious by nature, I am always looking for new things to learn. In fact, I never get tired of learning, and we all know that there is always new things to learn with programming. That's what I love about it!
 ";
 
 //contact
