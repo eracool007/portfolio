@@ -166,6 +166,11 @@ include 'includes/contact.php';
                             <li class="li-tech shadow"><span class="span-tech"><i class="icon-bg fa-brands fa-php"></i></span>PHP</li>
                             <li class="li-tech shadow"><span class="span-tech"><i class="icon-bg fa-solid fa-sitemap"></i></span><?= $oop; ?></li>
                             <li class="li-tech shadow"><span class="span-tech"><i class="icon-bg fa-solid fa-database"></i></span><?= $sql; ?></li>
+                            
+                            <li class="li-tech shadow"><span class="span-tech">
+                            <i class="icon-bg fa-brands fa-react"></i>
+                            </span>REACT</li>
+                            
                             <li class="li-tech shadow"><span class="span-tech"><i class="icon-bg fa-brands fa-bootstrap"></i></span>Bootstrap</li>
                             <li class="li-tech shadow"><span class="span-tech"><i class="icon-bg fa-brands fa-sass"></i></span>Sass</li>
                             <li class="li-tech shadow"><span class="span-tech"><i class="icon-bg fa-solid fa-code"></i></span>JQuery</li>
